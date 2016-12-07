@@ -1,0 +1,285 @@
+ul.lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Courier New;
+    font-weight: bold;
+    background-color:#022331;
+}
+li{
+  font-family:Roboto Condensed;
+}
+li.lista {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li a {
+    display: block;
+    color:#e6e6ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+img{
+  margin: 10px;
+  float:left;
+}
+img.tooltippic.lv
+{
+  margin:20px;
+  width:200px;
+  height:79px;
+}
+img.tooltippic.ba
+{
+  margin-left:50px;
+  margin-right:50px;
+  width:140px;
+  height:92px;
+}
+img.tooltippic.pe
+{
+  margin-left:50px;
+  margin-right:50px;
+  width:140px;
+  height:92px;
+}
+img.tooltippic.poh
+{
+  margin-left:31px;
+  margin-right:31px;
+  width:178px;
+  height:100px;
+}
+img.mapa{
+margin:10px;
+width:1316px;
+height:642px;
+}
+img.partizanske{
+    position: absolute;
+    width:13px;
+    height:13px;
+    left: 335px;
+    top: 603px;
+    z-index: 1;  
+}
+img.bratislava{
+    position: absolute;
+    width:38px;
+    height:38px;
+    left: 85px;
+    top: 779px;
+    z-index: 1;  
+}
+img.levice{
+    position: absolute;
+    width:18px;
+    height:18px;
+    left: 390px;
+    top: 744px;
+    z-index: 1;  
+}
+img.pohorela{
+    position: absolute;
+    width:10px;
+    height:10px;
+    left: 747px;
+    top: 527px;
+    z-index: 1;  
+}
+li a:hover {
+    background-color:black;
+}
+body {
+    background-color:#e6e6ff;
+}
+h1{
+   color:#05557a;
+   Font-family:Roboto Condensed;
+   font-size:160%
+   font-weight: bold;
+}
+h1.header{
+  color:white;
+  Font-family:Roboto Condensed;
+  font-weight:bold;
+  color:#e6e6ff;
+}
+h1.footer{
+  color:#05557a;
+  Font-family:Roboto Condensed;
+  font-size:75%;
+}
+h2{
+  font-family:Roboto Condensed;
+  font-size:110%;
+  color:#05557a;
+  font-weight: bold;
+}
+article {
+    border: 1px solid powderblue;
+    padding: 30px;
+    font-family:Verdana;
+    color:black;
+}
+cite{
+  font-family:Arial ;
+  font-size:200%;
+  color:grey;
+  font-style: italic;
+} 
+div.text {
+    background-color: white;
+    color: black;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    width:100%;
+}
+div.img{
+    background-color: white;
+    color: black;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    height:800px;
+    width:100%;
+}
+p{
+  font-family:Roboto Condensed ;
+  color:#022331;
+  
+}
+table{
+  width:80%; 
+  margin-left:10%; 
+  margin-right:10% ;
+  background:#e6e6ff; 
+}
+th, td {
+	margin: 0;
+	text-align: center;
+	border-collapse: collapse;
+	outline: 1px solid #e3e3e3;
+  font-family:Roboto Condensed;
+  font-size:85%;
+}
+td {
+	padding: 5px 10px;
+}
+td.cviko{
+  background:#00ccff;
+}
+td.prednaska{
+  background:#336600;
+  color:white;
+}
+td.floor{
+  background:#ffff99;
+}
+th {
+	background: #05557a;                          
+	color: white;
+	padding: 5px 10px;
+}
+td:hover {
+	cursor: pointer;
+	background: #05557a;
+	color: white;
+}
+.legend { list-style: none; background-color:#e6e6ff }
+.legend li { float: left; margin-right: 10px; }
+.legend span { float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .floorleg { background-color: #ffff99; }
+.legend .cvikoleg { background-color: #00ccff; }
+.legend .prednaskaleg { background-color: #336600; } 
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    clear: left;
+    text-align: center;
+}
+header{
+  background-color:#05557a;
+  border-width:10px;
+}
+footer{
+   background-color:#b6e7fc;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}    
+aside{
+  float:right;
+  font-family:Caveat ;
+  font-size:160%;
+  color:grey;
+  font-style: italic;
+  width:350px;
+  margin:10px;
+}   
+.tooltip {
+    position: initial;
+    display: inline-block;
+    
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 240px;
+    height:220px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px ;
+    font-family:Roboto Condensed ;
+    color:#022331;
+    position: absolute;
+    z-index: 2;
+    border: 5px solid #05557a;
+}
+.tooltip .tooltiptext.pe {
+    left: 408px;
+    top: 563px;
+}
+.tooltip .tooltiptext.lv {
+    left: 445px;
+    top: 704px;
+}
+.tooltip .tooltiptext.ba {
+    left: 140px;
+    top: 739px;
+}
+.tooltip .tooltiptext.pohor {
+    left: 802px;
+    top: 487px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    
+}
+a.info{
+  font-family:Roboto Condensed;
+  font-size:100%;
+  color:#05557a;
+  text-align: left;
+  font-weight: bold;
+  }
